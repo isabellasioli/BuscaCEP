@@ -1,4 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+h1 {
+    font-family: "Fascinate", system-ui;
+    color: rgb(255, 255, 255);
+}
+
 #loadingOverlay {
     /* As linhas abaixo garatem que o elemento ocupe 100% do espaço da tela */
     position: fixed;
@@ -16,4 +23,22 @@
     /* Aumenta o tamanho do spinner */
     width: 100px;
     height: 100px;
+}
+
+body {
+    background-color: rgb(21, 105, 80);
+}
+
+input[type="text"], select {
+    background-color: rgb(15, 124, 92) !important;
+    border: 1px solid rgb(16, 94, 70)  !important;
+    color: white !important;
+} 
+
+input[type="text"]::placeholder {
+    color: white;
+}
+
+label {
+    color: white;
 }
